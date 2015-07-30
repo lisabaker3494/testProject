@@ -5,6 +5,20 @@ VisualStudioVersion = 14.0.22823.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testProject", "testProject\testProject.csproj", "{F159767C-E947-4468-8362-64EDA3BD8DBA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{1EEA0266-5CDB-4200-AC2D-590FF41776A1}"
+	ProjectSection(SolutionItems) = preProject
+		BuildTasks\compile.rb = BuildTasks\compile.rb
+		BuildTasks\copy.rb = BuildTasks\copy.rb
+		BuildTasks\coverage.rb = BuildTasks\coverage.rb
+		BuildTasks\db.rb = BuildTasks\db.rb
+		BuildTasks\deploy.rb = BuildTasks\deploy.rb
+		BuildTasks\iis.rb = BuildTasks\iis.rb
+		BuildConfigurations\rakeconfig.rb = BuildConfigurations\rakeconfig.rb
+		rakefile.rb = rakefile.rb
+		BuildTasks\testing.rb = BuildTasks\testing.rb
+		BuildTasks\versioning.rb = BuildTasks\versioning.rb
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
