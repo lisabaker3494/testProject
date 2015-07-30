@@ -30,7 +30,7 @@ namespace :compile do
 
 	desc "Build solution in appropriate configuration mode"
 	msbuild :build do |msb|
-		msb.solution = "./Farmlink.InventoryManager.sln"	
+		msb.solution = "./testProject.sln"	
 		msb.targets = [:Rebuild]
 		msb.properties = {
 			:configuration => ENV["build_configuration"] || :Debug,		
