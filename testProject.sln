@@ -7,6 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "testProject", "testProject\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolutionItems", "SolutionItems", "{1EEA0266-5CDB-4200-AC2D-590FF41776A1}"
 	ProjectSection(SolutionItems) = preProject
+		.semver = .semver
 		BuildTasks\compile.rb = BuildTasks\compile.rb
 		BuildTasks\copy.rb = BuildTasks\copy.rb
 		BuildTasks\coverage.rb = BuildTasks\coverage.rb
