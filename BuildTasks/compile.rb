@@ -30,6 +30,7 @@ namespace :compile do
 
 	desc "Build solution in appropriate configuration mode"
 	msbuild :build do |msb|
+		msb = "C:\Windows\Microsoft.NET\Framework\v4.0.30319\msbuild.exe"
 		msb.solution = "./testProject.sln"	
 		msb.targets = [:Rebuild]
 		msb.properties = {
